@@ -2,10 +2,13 @@ body{
     background: url("../image/bg.png");
 }
 .m-padded-mini{
-    padding: 0.2em;
+    padding: 0.2em!important;
 }
 .m-padded-tiny{
-    padding: 0.3em;
+    padding: 0.3em!important;
+}
+.m-padded{
+    padding: 1em!important;
 }
 .m-padded-tb-mini{
     padding-top: 0.2em !important;
@@ -64,12 +67,12 @@ body{
 }
 
 .m-container{
-    max-width: 72em;
-    margin: auto;
+    max-width: 72em!important;
+    margin: auto!important;
 }
 .m-container-small{
-    max-width: 60em;
-    margin: auto;
+    max-width: 60em!important;
+    margin: auto!important;
 }
 .m-text{
     font-weight: 300!important;
@@ -98,9 +101,9 @@ body{
 }
 
 .m-right-top{
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: absolute!important;
+    top: 0!important;
+    right: 0!important;
 }
 .m-mobile-show{
     display: none!important;
@@ -145,6 +148,14 @@ body{
 .m-shadow-small{
     -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2)!important;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2)!important;
+}
+.m-fixed{
+    position: fixed!important;
+    z-index: 10!important;
+}
+.m-right{
+    bottom: 0!important;
+    right: 0!important;
 }
 
 
